@@ -1,0 +1,35 @@
+Images of results in folder. Enter sudo mode for steps 2 and later. SSL certs could be added to compose files to avoid insecure calls in curl etc.
+
+1)
+
+- Had to change requirements to use pytest 6.2.5
+- Spelling mistake fixtre changed to fixture
+- TEST FAILS FIXES:
+	- Changed test 1 to 0
+	- Chnaged -= to += as it is an add cash not subtract
+	- Changed += to -= as this was spend
+
+2)
+
+- UID typo
+- dockre typo
+- -y flag missing in socat and && missing
+- requirements typo
+
+3a)
+
+- New user and password combo created - user:$$apr1$$g9fszoy6$$yW1HCGMpYNmTfk50XO3cF1 (user:user)
+- curl command that works can be found in curl_whoami.sh
+
+3b)
+
+- All completed except calling wallet status is prometheus
+
+4)
+
+- All endpoints created and can be called in swagger
+- Did externalise wallet but not threadsafe. Few options for this (https://stackoverflow.com/questions/32815451/are-global-variables-thread-safe-in-flask-how-do-i-share-data-between-requests)
+- Started to try session choice but not optimal
+
+
+
